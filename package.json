@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "@typegoose/typegoose": "^10.1.0",
+    "argon2": "^0.28.7",
     "bcryptjs": "^2.4.3",
     "config": "^3.3.9",
     "dayjs": "^1.11.7",
