@@ -1,5 +1,13 @@
-let  createUserhandler = async  (req,res) => {
-  
-}
+import { CreateUserInput } from "./../schema/user.schema";
+import { Request, Response } from "express";
 
-export default createUserhandler 
+
+
+let createUserhandler = async (
+  req: Request<{}, {}, CreateUserInput>,
+  res: Response
+) => {
+  const body = req.body
+};
+
+export default createUserhandler;
